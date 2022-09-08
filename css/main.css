@@ -25,23 +25,24 @@
 }
 /* Typography */
 h1, h2, h3, h4, h5, h6, figure {
-	color: #000000;
+	color: #3c3c3c;
 	font-weight: 400;
 	margin: 0 0 20px 0;
 }
 h1 {
-	font-size: 60px;
-	font-family: "Good Vibes Pro", cursive;
-}
-h2 {
 	font-size: 50px;
 	font-family: "Good Vibes Pro", cursive;
 }
+h2 {
+	font-size: 40px;
+	font-family: "Good Vibes Pro", cursive;
+}
 h3 {
-	font-size: 30px;
+	font-size: 40px;
+	font-family: "Good Vibes Pro", cursive;
 }
 a {
-	color: #000;
+	color: #3c3c3c;
 	transition: all 0.5s ease;
 }
 a:hover, a:active, a:focus {
@@ -71,9 +72,9 @@ p {
 body {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 1.7;
-	color: #000000;
+	color: #3c3c3c;
 	background: #FFFFFF;
 }
 body.offcanvas {
@@ -160,10 +161,10 @@ ol {
 .heading h2 {
 	margin-bottom: 10px;
 	line-height: 1.5;
-	color: #000;
+	color: #3c3c3c;
 }
 .heading p {
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 1.5;
 }
 @media only screen and (min-width: 768px) {
@@ -673,7 +674,7 @@ img {
 }
 .couple-wrap h3 {
 	font-size: 24px;
-	color: #000;
+	color: #3c3c3c;
 }
 .couple-wrap .groom-wrap {
 	margin-bottom: 40px;
@@ -701,7 +702,7 @@ img {
 .heart i {
 	font-size: 20px;
 	padding: 20px;
-	color: #000;
+	color: #3c3c3c;
 }
 @media only screen and (min-width: 992px) {
 	.heart {
@@ -756,7 +757,7 @@ img {
 }
 /* Events */
 .events-accordion h3 {
-	font-size: 20px;
+	font-size: 30px;
 }
 .events-accordion #accordion-img {
 	margin-top: -20px;

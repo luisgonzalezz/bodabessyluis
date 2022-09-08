@@ -341,7 +341,7 @@ const urlParams = new URLSearchParams(valores);
 var invitado = urlParams.get('inv');
 
 if(invitado){
-	document.getElementById("nombreInvitado").innerHTML = invitado.replace("_",' ');
+	document.getElementById("nombreInvitado").innerHTML = invitado.replaceAll("_",' ');
 	//document.getElementById("form-name").value = invitado.replace("_",' ');
 	
 	
